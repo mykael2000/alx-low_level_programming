@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+
 
 /**
  * _isdigit - checks if parameter is a number between 0 to 9.
