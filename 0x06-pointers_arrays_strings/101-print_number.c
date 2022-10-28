@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_number - prints an integer.
@@ -25,5 +25,11 @@ void print_number(int n)
 	while (d > 9)
 	{
 		d /= 10;
+		count *= 10;
 	}
-}
+
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
+}i}
