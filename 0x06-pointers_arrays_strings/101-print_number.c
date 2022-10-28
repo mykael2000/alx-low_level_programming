@@ -25,4 +25,5 @@ void print_number(int n)
 	while (d > 9)
 	{
 		d /= 10;
-
+	}
+}
